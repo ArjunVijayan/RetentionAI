@@ -169,8 +169,8 @@ def train_model(data, id_columns, treatment_column
 
 def configure_model_training_():
 
-    path = "/Users/arjun-14756/Desktop/customer_retention_demo_/"
-    all_data = ["None", "simple_churn_data", "crm_churn_data"]
+    path = ""  # Folder Path
+    all_data = ["None", "simple_churn_data", "crm_churn_data"] # dataset names
 
     data = st.selectbox("Select Data", all_data)
 
